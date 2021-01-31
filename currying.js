@@ -22,5 +22,7 @@ function getTravelTime2(distance) {
 }
 
 const travelTimeBosNyc = getTravelTime2(400);
+const travelTimeMiamiAtlanta = getTravelTime2(600);
 
 console.log(travelTimeBosNyc(80));
+console.log(travelTimeMiamiAtlanta(80));

@@ -2,7 +2,7 @@
 //   return num * 2;
 // }
 
-// IIFE function
+// IIFE function : Imediately Invoked Function Expression
 // IIFE function reserves a private scope inside the function or file
 (function doubleNumber(num) {
   return num * 2;

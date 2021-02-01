@@ -36,9 +36,8 @@ const adriansCar = new Car("silver", "Honda", "2020");
 const mikesCar = new Car("black", "toyota", "2014");
 
 console.log(
-  "Get Adrian's car: ",
+  "Get Adrian's car: %s \nGet car color: %s ",
   adriansCar,
-  "\nGet car color: ",
   adriansCar.getColor()
 );
 console.log("Get Mike's car: ", mikesCar);
